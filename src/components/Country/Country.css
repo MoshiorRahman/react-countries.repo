@@ -1,0 +1,11 @@
+.country{
+    background-color: #9087de;
+    border: 2px solid blueviolet;
+    border-radius: 15px;
+    margin: 15px;
+    padding: 5px;
+
+}
+.flag{
+    width: 200px;
+}

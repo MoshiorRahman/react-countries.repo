@@ -1,0 +1,7 @@
+.main-container{
+    background-color: #daeeb9;
+}
+.countries-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
