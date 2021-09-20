@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useEffect } from 'react/cjs/react.development';
+import { useEffect } from 'react';
 import Country from '../Country/Country';
 import './Countries.css'
 
@@ -13,8 +13,8 @@ const Countries = () => {
     }, [])
     return (
         <div className="main-container">
-            <h1 style={{ color: "indigo", padding: "15px" }}>Hello from Countries: {countries.length}</h1>
-            <div className="countries-container">
+            <h1 style={{ color: "indigo", padding: "15px" }}>Hello from my Countries: {countries.length}</h1>
+            <div className="countries-container container">
                 {
                     countries.map(country => <Country
                         key={country.alpha3code}
